@@ -1,6 +1,6 @@
 # SudoR2spr WOODcraft
 # Add your details here and then deploy by clicking on HEROKU Deploy button
 
-api_id = "1701393"
-api_hash = "96089a340f5892fd06aea683cbfb73c6"
-bot_token = "6872135659:AAwwm1jsMGNOFJnuICL_a1coI6CI6udAY6F4"
+api_id = "29917436"
+api_hash = "4a926822b076a086a167fe8f2701d3e9"
+bot_token = "7157272669:AAGvVYKEkmSS0UbFOUZlAN3m8gOfqKAbB9U"
