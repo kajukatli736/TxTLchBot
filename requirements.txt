@@ -9,7 +9,7 @@ pyrogram==2.0.106
 pyromod==1.5
 PySocks==1.7.1
 python-dotenv==1.0.0
-requests==2.31.0
+requests
 soupsieve==2.4.1
 TgCrypto==1.2.5
 urllib3==2.0.3
@@ -21,4 +21,3 @@ aiofiles
 pytz
 umongo==3.1.0
 speedtest-cli
-requests
