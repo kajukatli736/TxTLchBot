@@ -8,16 +8,16 @@ RUN apt-get update && apt-get upgrade -y
 RUN apt-get install -y git
 
 # Copy requirements.txt file
-COPY Installer /Installer
+COPY Installer.txt /Installer.txt
 
 # Set the working directory
 WORKDIR /
 
 # Install Python dependencies
-RUN pip3 install -U pip && pip3 install -U -r Installer
+RUN pip3 install -U pip && pip3 install -U -r Installer.txt
 
 # Copy the rest of the files
 COPY . /
 
 # Start the Python script
-CMD ["python3", "modules/main.py"]
+CMD ["python3", "main.py"]
