@@ -17,7 +17,7 @@
 
 * `SUDO_USERS` - AUTH Or Bot Controllers Id's Multiple Id Use Space To Spli
   
-* `PICS` - Your Start Pic [File To URL 🇮🇳]([https://t.me/MissRose_bot](https://t.me/FileToUrlX_Bot))
+* `PICS` - Your Start Pic [File To URL 🇮🇳](https://t.me/FileToUrlX_Bot)
 
 
 ## Botfather Commands
@@ -28,7 +28,6 @@ uplod - 🎬 Txt file upload
 ```
 
 
-=
  
 -----
 Credits: [AshutohsGoswami24](https://github.com/AshutoshGoswami24)
