@@ -5,10 +5,10 @@ from os import getenv, environ
 
 
 
-api_id = int(environ.get("API_ID", "29917436"))
-api_hash = environ.get("API_HASH", "4a926822b076a086a167fe8f2701d3e9")
+api_id = int(environ.get("api_id", "29917436"))
+api_hash = environ.get("api_hash", "4a926822b076a086a167fe8f2701d3e9")
 SUDO_USERS = int(environ.get("SUDO_USERS", "6141937812"))
-bot_token = environ.get("BOT_TOKEN", "6755014380:AAECxivro_dmP9qPIPmukG5qY6NQm-mUVk4")
+bot_token = environ.get("bot_token", "6755014380:AAECxivro_dmP9qPIPmukG5qY6NQm-mUVk4")
 OWNER_ID = int(environ.get("OWNER_ID", "6141937812"))
 
 QRPICS = (environ.get('QRPICS', 'https://graph.org/file/b3125068739885e7109db.jpg https://graph.org/file/b3125068739885e7109db.jpg')).split()
