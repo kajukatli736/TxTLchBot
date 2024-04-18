@@ -1,10 +1,12 @@
-FROM ubuntu:latest
-RUN apt-get update -y && apt-get upgrade -y \
-    && apt-get install -y --no-install-recommends gcc libffi-dev musl-dev ffmpeg aria2 python3-pip \
-    && apt-get clean \
-    && rm -rf /var/lib/apt/lists/*
+FROM python:3.10.6
+RUN mkdir /bot && chmod 777 /bot
+WORKDIR /bot
+ENV DEBIAN_FRONTEND=noninteractive
+RUN apt -qq update && \
+    apt -qq install -y git wget pv jq python3-dev ffmpeg mediainfo neofetch && \
+    apt-get install wget -y -f && \
+    apt-get install fontconfig -y -f
 
-COPY . /app/
-WORKDIR /app/
-RUN pip3 install --no-cache-dir --upgrade --requirement Installer
-CMD python3 main.py
+COPY . .
+RUN pip3 install -r requirements.txt
+CMD ["bash", "run.sh"]
