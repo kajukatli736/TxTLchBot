@@ -7,7 +7,7 @@ import asyncio
 import requests
 import subprocess
 
-import core as *
+import core as helper
 from utils import *
 from vars import *
 from aiohttp import ClientSession
