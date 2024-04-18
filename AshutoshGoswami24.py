@@ -9,7 +9,7 @@ import subprocess
 
 import core as helper
 from utils import *
-from vars import *
+from AshuXConfig import *
 from aiohttp import ClientSession
 from pyromod import listen
 from subprocess import getstatusoutput
